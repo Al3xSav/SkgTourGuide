@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Skg Guide</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="name_object">locationName</string>
+    <string name="address_object">locationAddress</string>
+    <string name="desc_object">locationDescription</string>
+    <string name="image_object">locationImage</string>
+    <string name="website_object">locationWebsite</string>
+    <string name="coordinates_object">locationCoordinates</string>
+    <string name="phone_object">phoneNumber</string>
+    <string name="working_hours_object">workingHours</string>
+
+    <string name="image_info">Image</string>
+    <string name="website">Website</string>
+    <string name="location">Location</string>
+    <string name="info_text">INFORMATION</string>
+    <string name="additional_info">ADDITIONAL</string>
+
+    <string name="name_text_view">Name of the Place</string>
+    <string name="address_text_view">Address of the place</string>
+    <string name="website_text_view">Website of the Place</string>
+    <string name="phone_text_view">Phone number</string>
+    <string name="hours_text_view">Working Hours</string>
+
+
+    <!-- Sightseeing -->
+    <string name="white_tower">White Tower</string>
+    <string name="white_tower_address">Thessaloniki 54621</string>
+    <string name="white_tower_info">
+        Thessaloniki\’s symbol, the White Tower is a 15th century
+        fortification which was part of the city’s defenses. \n
+        The White Tower is the point where the seaward defense and the eastern wall met. \n
+        For years it served as a prison for condemned prisoners awaiting execution. In early 1980s
+        it was reconstructed and since 1985 is operating as a museum.  Today the White Tower is used
+        as a place of exhibition of the Byzantine Museum of Thessaloniki. For the first months of 2002
+        it housed ‘Byzantine Hours’, an exhibition devoted to ordinary life in Byzantine times.\n
+        The first floor was presenting the “Professionals in the market place “ which actually is a
+        presentation of tools and other objects belonging to goldsmiths, blade-smiths, glassmakers
+        and tillers together with coins and a miniature model of Thessaloniki’s market place.\n
+        The second floor was devoted to journeys and trade. Objects and texts related to journeys
+        by sea and overland, fairs, spectacles and pilgrimages.\n
+        The third floor is a presentation of the Byzantine home and its interior design, the
+        decoration, supper, and the neighborhood.\n
+        At the floor above there was an exhibition of life at home with garments and footwear,
+        cosmetics, perfume and jewellery, personal grooming, and even superstitions.\n
+        The theme of the top floor was covering burial and funerary customs.
+    </string>
+    <string name="white_tower_website">http://site.lpth.gr/</string>
+    <string name="white_tower_coord">40.626335, 22.948628</string>
+    <string name="white_tower_phone">+30 231 026 7832</string>
+    <string name="white_tower_working_hours">Mon &#8211; Fri: 08:30 &#8211; 15:00</string>
+
+    <!-- Museums -->
+    <string name="archaeological_museum">Archaeological Museum</string>
+    <string name="archaeological_address">Manoli Andronikou 6, Thessaloniki 546 21</string>
+    <string name="archaeological_museum_info">
+        The Archaeological Museum of Thessaloniki opened its doors to the public in 1962 by hosting
+        findings from the area of Thessaloniki and the neighboring counties.\n
+        The Archaeological Museum of Thessaloniki opened its doors to the public in 1962 by hosting
+        findings from the area of Thessaloniki and the neighboring counties.\n
+        The museum presents exhibits of the culture of Macedonia from prehistoric times and thereafter.\n
+        The museum redesigned the interior area for a better and much more modern presentation of
+        the permanent and temporary collections.\n
+        Visitors have the opportunity to walk around the five sections of the new structure of the
+        museum, through which they come into contact with the culture and people of ancient Macedonia.\n
+        The five sections of the Archaeological Museum of Thessaloniki:\n
+        Section A: Prehistoric Macedonia.\n
+        Presentation of parts of the skull cast of an early hominid the \“Macedonian Ape\” and
+        presentation of a copy of the famous skull of Petralona Cave(200,000 BC).\n
+        Section-B: To the birth of cities.\n
+        Presentation of evidence for the existence of settlements and cemeteries from the region
+        extending between Athos and Olympus mountains, during the Iron Age (1100 - 700 BC).\n
+        Section C: Macedonia from the 7th century BC to late Antiquity.\n
+        Presentation of the life of the Macedonians from the creation of their independent kingdom
+        of Macedonia (the ancient years) until the imperial period (1st to 4th century AD)
+        when Macedonia was a province of the Roman Empire.\n
+        Section D: Thessaloniki, the Macedonian Metropolis\n
+        Presentation of historical and archaeological information of the city.  The period from the
+        year of its foundation, in 315 BC until the Roman occupation.\n
+        Section E: The Gold of the Macedonians.\n
+        Presentation of the art of the goldsmiths and exceptional exhibits from various places,
+        mostly from cemeteries of Archaic and Classical periods.\n
+        The museum also has a chronological narration commencing with the \"Prehistoric Macedonia.\"\n
+    </string>
+    <string name="archaeological_website">https://www.amth.gr/en</string>
+    <string name="archaeological_coord">40.625196, 22.953828</string>
+    <string name="archaeological_phone">+30 231 331 0201</string>
+    <string name="archaeological_working_hours">Mon &#8211; Fri: 08:00 &#8211; 20:00</string>
+
+    <!-- Restaurants -->
+    <string name="molyvos">Molyvos</string>
+    <string name="molyvos_address">I.Dragoumi 31, Thessaloniki 54627</string>
+    <string name="molyvos_info">
+        Molyvos, the idea, the pholosophy, the creation \n
+        Finished summers in Mytilini, the tea spoon cake in the homonymous architecture of Molyvos.
+        The memories of the group made the dream a reality. And with the boat of the line he took a
+        harbor on Idragoud 31 at the first floor of a magnificent neoclassical building.\n
+        The feel of Mytilene is faithfully depicted in every corner of the restaurant called Molyvos
+        with the handmade wooden furniture, the stone-made iron utensils, the painted ceilings, the
+        large island sofas and of course the 9 balloons with the small olive groves, the hungry
+        kumarias and the flower beds filled with miniatures , Thyms, basilicas are reborn in the
+        center of Thessaloniki in the Island of Molyvos.\n
+        The Molyvos Restaurant unleashes the senses with flavors and aromas of the city and the
+        East with Aegean and Mediterranean flavors.\n
+        In Molyvos, we created our own cell, which was created with the same materials that were
+        built in 1930. Roofing over 40 different faces and tsipouro from all over Greece, scattering
+        in the space a delightful scent of lifting. Wines are also kept from small vineyards and
+        vineyards, as well as composts and tarsi all made by us.\n
+        People who are slaves of the clock, the time and the machine who do not have to think, love,
+        feel the great joy of life, should ever come to places like Molyvos that say here and time
+        stops and Life It proceeds with a very quiet and serene rhythm.\n
+    </string>
+    <string name="molyvos_website">https://molyvos.gr/</string>
+    <string name="molyvos_coord">40.636604,22.940037</string>
+    <string name="molyvos_phone">+30 231 055 5952</string>
+    <string name="molyvos_working_hours">Everyday: 13:00 &#8211; 01:00</string>
+
+
+    <!-- Coffee bars-->
+    <string name="tribeca">TriBeCa All Day Cafe Bar</string>
+    <string name="tribeca_address">Leoforos Nikis 19, Thessaloniki 54623</string>
+    <string name="tribeca_info">
+            Specialties \n
+            Serves breakfast, lunch, coffee and drinks\n
+            Services \n
+            Takes Reservations\n
+            Walk-Ins Welcome\n
+            Good For Groups\n
+            Good For Kids\n
+            Take Out\n
+            Waiter Service\n
+            Outdoor Seating\n
+    </string>
+    <string name="tribeca_website">https://www.facebook.com/TribecaThessaloniki</string>
+    <string name="tribeca_coord">40.6309, 22.9421</string>
+    <string name="tribeca_phone">+30 231 022 6604</string>
+    <string name="tribeca_working_hours">Everyday: 09:00 &#8211; 03:00</string>
+</resources>

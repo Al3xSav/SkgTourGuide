@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/custom_padding">
+
+        <TextView
+            android:id="@+id/textView_name"
+            style="@style/text_list_name"
+            android:layout_gravity="center"
+            android:background="#F0FFFF"
+            android:padding="@dimen/custom_padding"
+            android:textAlignment="center"
+            tools:text="@string/name_text_view" />
+
+        <ImageView
+            android:id="@+id/main_image"
+            style="@style/main_image_details"
+            android:contentDescription="@string/image_info"
+            android:src="@drawable/ic_unknown_place" />
+
+        <TextView
+            android:id="@+id/textView_info_label"
+            style="@style/additional_info_texts"
+            android:background="#F0FFFF"
+            android:gravity="center"
+            android:padding="@dimen/custom_padding"
+            android:text="@string/info_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_info"
+            style="@style/info_text_view"
+            tools:text="@string/info_text" />
+
+        <TextView
+            android:id="@+id/textView_addition_info"
+            style="@style/additional_info_texts"
+            android:background="#F0FFFF"
+            android:padding="@dimen/custom_padding"
+            android:text="@string/additional_info"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_address"
+                style="@style/additional_info_texts"
+                android:drawableStart="@drawable/ic_location_on"
+                android:selectAllOnFocus="true"
+                android:textColor="#DC143C"
+                android:textStyle="italic"
+                tools:text="@string/address_text_view" />
+
+            <TextView
+                android:id="@+id/textView_website"
+                style="@style/additional_info_texts"
+                android:drawableStart="@drawable/ic_info"
+                android:selectAllOnFocus="true"
+                android:textColor="#DC143C"
+                android:textStyle="italic"
+                tools:text="@string/website_text_view" />
+
+
+            <TextView
+                android:id="@+id/textView_phone"
+                style="@style/additional_info_texts"
+                android:autoLink="phone"
+                android:drawableStart="@drawable/ic_phone"
+                android:selectAllOnFocus="true"
+                android:textColorLink="#DC143C"
+                android:textStyle="italic"
+                tools:text="@string/phone_text_view" />
+
+            <TextView
+                android:id="@+id/textView_hours"
+                style="@style/additional_info_texts"
+                android:drawableStart="@drawable/ic_work"
+                android:textColor="@color/colorAccent"
+                tools:text="@string/hours_text_view" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
