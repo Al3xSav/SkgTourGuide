@@ -26,7 +26,7 @@ public class MuseumsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
         ArrayList<Location> locations = new ArrayList<>();// ArrayList of sights
 
-        // Add info of each location to the array list
+        // Add Archaeological Museum to the array list
         locations.add(new Location(
                 getString(R.string.archaeological_museum),
                 getString(R.string.archaeological_address),
@@ -36,6 +36,28 @@ public class MuseumsFragment extends Fragment {
                 getString(R.string.archaeological_coord),
                 getString(R.string.archaeological_phone),
                 getString(R.string.archaeological_working_hours)));
+
+        // Add Byzantine Museum to the array list
+        locations.add(new Location(
+                getString(R.string.byzantine_museum),
+                getString(R.string.byzantine_address),
+                getString(R.string.byzantine_museum_info),
+                R.drawable.ic_museum_byzantine_culture,
+                getString(R.string.byzantine_museum_website),
+                getString(R.string.byzantine_museum_coord),
+                getString(R.string.byzantine_museum_phone),
+                getString(R.string.byzantine_museum_working_hours)));
+
+        // Add Plaster Casts to the array list
+        locations.add(new Location(
+                getString(R.string.plaster_casts_museum),
+                getString(R.string.plaster_casts_museum_address),
+                getString(R.string.plaster_casts_museum_info),
+                R.drawable.ic_plaster_casts,
+                getString(R.string.plaster_casts_museum_website),
+                getString(R.string.plaster_casts_museum_coord),
+                getString(R.string.plaster_casts_museum_phone),
+                getString(R.string.plaster_casts_museum_working_hours)));
 
         // Set the adapter for the location
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

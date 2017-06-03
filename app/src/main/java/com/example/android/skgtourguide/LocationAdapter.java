@@ -56,14 +56,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         TextView textViewAddress = (TextView) listItemView.findViewById(R.id.list_item_address);
         textViewAddress.setText(address);
 
-        // Get TextView and set the name of the Object
-        /*TextView textViewNumber = (TextView) listItemView.findViewById(R.id.textView_phone);
-        textViewNumber.setText(number);
-
-        // Get TextView and set the name of the Object
-        TextView textViewHours = (TextView) listItemView.findViewById(R.id.textView_hours);
-        textViewHours.setText(hours);*/
-
         //Create an implicit intent to display the detailed place information if the user taps on the list item
         final Intent intent = new Intent(context, LocationActivity.class);
 
@@ -76,7 +68,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         intent.putExtra(context.getString(R.string.coordinates_object), coordinates);
         intent.putExtra(context.getString(R.string.phone_object), number);
         intent.putExtra(context.getString(R.string.working_hours_object), hours);
-
 
         listItemView.setOnClickListener(new View.OnClickListener() {
             @Override

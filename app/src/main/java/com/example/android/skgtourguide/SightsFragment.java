@@ -23,9 +23,9 @@ public class SightsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.list, container, false);
-        ArrayList<Location> locations = new ArrayList<>(); // ArrayList of sights
+        ArrayList<Location> locations = new ArrayList<Location>(); // ArrayList of sights
 
-        // Add info of each location to the array list
+        // Add White Tower to the array list
         locations.add(new Location(
                 getString(R.string.white_tower),
                 getString(R.string.white_tower_address),
@@ -35,6 +35,50 @@ public class SightsFragment extends Fragment {
                 getString(R.string.white_tower_coord),
                 getString(R.string.white_tower_phone),
                 getString(R.string.white_tower_working_hours)));
+
+        // Add Byzantine Walls to the array list
+        locations.add(new Location(
+                getString(R.string.byzantine_walls),
+                getString(R.string.byzantine_walls_address),
+                getString(R.string.byzantine_walls_info),
+                R.drawable.ic_byzantine_castles,
+                getString(R.string.byzantine_walls_website),
+                getString(R.string.byzantine_walls_coord),
+                getString(R.string.byzantine_walls_phone),
+                getString(R.string.byzantine_walls_hours)));
+
+        // Add Arch of Galerius to the array list
+        locations.add(new Location(
+                getString(R.string.arch_galerius),
+                getString(R.string.arch_galerius_address),
+                getString(R.string.arch_galerius_info),
+                R.drawable.ic_arch_galerius,
+                getString(R.string.arch_galerius_website),
+                getString(R.string.arch_galerius_coord),
+                getString(R.string.arch_galerius_phone),
+                getString(R.string.arch_galerius_hours)));
+
+        // Add Rotonda to the array list
+        locations.add(new Location(
+                getString(R.string.rotonda),
+                getString(R.string.rotonda_address),
+                getString(R.string.rotonda_info),
+                R.drawable.ic_rotonda,
+                getString(R.string.rotonda_website),
+                getString(R.string.rotonda_coord),
+                getString(R.string.rotonda_phone),
+                getString(R.string.rotonda_hours)));
+
+        // Add Agios Dimitrios to the array list
+        locations.add(new Location(
+                getString(R.string.agios_dimitrios),
+                getString(R.string.agios_dimitrios_address),
+                getString(R.string.agios_dimitrios_info),
+                R.drawable.ic_agios_dimitrios,
+                getString(R.string.agios_dimitrios_website),
+                getString(R.string.agios_dimitrios_coord),
+                getString(R.string.agios_dimitrios_phone),
+                getString(R.string.agios_dimitrios_hours)));
 
         // Set the adapter for the location
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

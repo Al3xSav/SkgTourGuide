@@ -23,27 +23,27 @@
     <string name="phone_text_view">Phone number</string>
     <string name="hours_text_view">Working Hours</string>
 
-
     <!-- Sightseeing -->
+    <!-- White Tower-->
     <string name="white_tower">White Tower</string>
     <string name="white_tower_address">Thessaloniki 54621</string>
     <string name="white_tower_info">
         Thessaloniki\’s symbol, the White Tower is a 15th century
-        fortification which was part of the city’s defenses. \n
-        The White Tower is the point where the seaward defense and the eastern wall met. \n
+        fortification which was part of the city’s defenses. \n\n
+        The White Tower is the point where the seaward defense and the eastern wall met. \n\n
         For years it served as a prison for condemned prisoners awaiting execution. In early 1980s
         it was reconstructed and since 1985 is operating as a museum.  Today the White Tower is used
         as a place of exhibition of the Byzantine Museum of Thessaloniki. For the first months of 2002
-        it housed ‘Byzantine Hours’, an exhibition devoted to ordinary life in Byzantine times.\n
+        it housed ‘Byzantine Hours’, an exhibition devoted to ordinary life in Byzantine times.\n\n
         The first floor was presenting the “Professionals in the market place “ which actually is a
         presentation of tools and other objects belonging to goldsmiths, blade-smiths, glassmakers
         and tillers together with coins and a miniature model of Thessaloniki’s market place.\n
         The second floor was devoted to journeys and trade. Objects and texts related to journeys
-        by sea and overland, fairs, spectacles and pilgrimages.\n
+        by sea and overland, fairs, spectacles and pilgrimages.\n\n
         The third floor is a presentation of the Byzantine home and its interior design, the
-        decoration, supper, and the neighborhood.\n
+        decoration, supper, and the neighborhood.\n\n
         At the floor above there was an exhibition of life at home with garments and footwear,
-        cosmetics, perfume and jewellery, personal grooming, and even superstitions.\n
+        cosmetics, perfume and jewellery, personal grooming, and even superstitions.\n\n
         The theme of the top floor was covering burial and funerary customs.
     </string>
     <string name="white_tower_website">http://site.lpth.gr/</string>
@@ -51,89 +51,347 @@
     <string name="white_tower_phone">+30 231 026 7832</string>
     <string name="white_tower_working_hours">Mon &#8211; Fri: 08:30 &#8211; 15:00</string>
 
+    <!--Byzantine Castles-->
+    <string name="byzantine_walls">Byzantine Walls</string>
+    <string name="byzantine_walls_address">Agios Pavlos, Thessaloniki 546 34</string>
+    <string name="byzantine_walls_info">
+        These impressive structures were built to protect the city from raids and withstand long sieges,
+        something that they actually did most of the times.\n\n
+        The city was initially fortified right after its foundation in the late 4th century BC but
+        the present walls are dated back to the early Byzantine period around 390 AD during the reign
+        of emperor Theodosius, while they still incorporate some parts of the earlier constructions.\n\n
+        Their defensive abilities are quite impressive! They were 7 kilometers long while at some
+        points they were up to 10 meters high and almost 5 meters thick. They were decorated with
+        various symbols like suns, crosses or carved marble inscriptions near the gates.\n\n
+        A number of fortresses and defensive towers were added during different periods of history
+        like the Seven Towers Fortress (Heptapirgion) and the Tower Of Trigoniou located near the Acropolis.
+        Several square, circle or polygon shaped towers were also built along the entire perimeter.\n\n
+        The Walls were still surrounding the city until the late 19th century when large parts
+        including the entire seaward section were demolished as the Ottoman authorities were trying
+        to change some of the city’s urban features.
+    </string>
+    <string name="byzantine_walls_website">http://www.thessaloniki-sightseeing.com/index.php/en/byzantine-castles/</string>
+    <string name="byzantine_walls_coord">40.6406283, 22.9579644</string>
+    <string name="byzantine_walls_phone">-</string>
+    <string name="byzantine_walls_hours">Everyday 24/7</string>
+
+    <!--Arch Of Galerius-->
+
+    <string name="arch_galerius">Arch Of Galerius</string>
+    <string name="arch_galerius_address">Egnatia 144, Thessaloniki 546 22</string>
+    <string name="arch_galerius_info">
+        One of the most characteristic monuments of Thessaloniki is the Arch of Galerius, located on
+        the upper side of the Via Egnatia, a short distance from the Rotunda. (The Rotunda is a
+        building with internal niches, serving as a place of worship).\n\n
+        The Arch of Galerius is a glorious monument, whose purpose was not practical, but memorial
+        and honorary. It is a triumphal arch built shortly before 305 AD to honor the Roman Emperor
+        Galerius, after the final victory over the Persians.  The triumphal arch that was positioned
+        perpendicular to the ancient Egnatia, which crossed the city (west to east) forming a part of
+        the Roman Palace of Galerius, which was developed through the current squares of Navarinou and Hippodrome.\n\n
+        The construction design of the arch of Galerius was such as the two major roads to pass
+        beneath it and crossed right in the middle, the current Egnatia Street and the street starting
+        from the Arch and ending at the south gate of the wall of the Rotunda.
+    </string>
+    <string name="arch_galerius_website">http://www.inthessaloniki.com/en/arch-of-galerius</string>
+    <string name="arch_galerius_coord">40.6321095, 22.9494796</string>
+    <string name="arch_galerius_phone">-</string>
+    <string name="arch_galerius_hours">Everyday 24/7</string>
+
+    <!-- Rotonda -->
+    <string name="rotonda">Rotonda</string>
+    <string name="rotonda_address">Pl. Agiou Georgiou Rotonda 5, Thessaloniki, 546 35</string>
+    <string name="rotonda_info">
+        <b>The famous Rotonda of Thessaloniki, Macedonia:</b> The Rotonda (or Rotunda) is one of
+        the most important Roman monuments in Thessaloniki. It stands just next to the Arch of Galerius
+        in the city centre and it is also known as the Church of Agios Georgios. This cylindrical structure
+        was built in 306 AD by the Roman tetrarch Galerius, who intended it to be his grave. At first,
+        it worked as a temple but it remains unknown to which god this temple was dedicated. \n\n
+        Eventually, Galerius died in 311 AD and he was buried in Felix Romuliana, modern Serbia. In
+        the 4th century AD, the Byzantine emperor Constantine I converted it into an Orthodox
+        church and many frescoes were painted inside, some of which survive today on the walls of Rotonda.\n\n
+        In the 14th century, the Ottomans occupied Thessaloniki and in 1590, the Rotonda was converted
+        into a mosque. In fact, a minaret was added to the building that has been restored and survives
+        till today. In 1912, the Greeks deliberated Thessaloniki and Rotonda was converted into an
+        Orthodox church again, till 1979, when a strong earthquake caused serious damage to the structure.
+        Presently, the Rotonda has been restored and works as a sculpture museum. Also, it frequently
+        hosts various exhibitions.\n\n
+        The Rotonda has a diameter of 24,5 metres and its walls are more than 6 metres thick, which
+        has protected the monument from time, sieges and eartquakes. This is one of the oldest
+        Orthodox churches and has been included in the UNESCO list of the World Heritage Sites.
+        In fact, all Paleochristian and Byzantine monuments of Thessaloniki were included in this list
+        in 1988.
+    </string>
+    <string name="rotonda_website">http://www.inthessaloniki.com/en/rotonda</string>
+    <string name="rotonda_coord">40.6333007, 22.9506651</string>
+    <string name="rotonda_phone">+30 231 096 8860</string>
+    <string name="rotonda_hours">
+        Sun/Mon/Wed/: 09:00 &#8211; 15:00 \n
+        Tue &#8211; Fri: 09:00 &#8211; 20:30 </string>
+
+    <!-- Agios Dimitrios -->
+    <string name="agios_dimitrios">Agios Dimitrios</string>
+    <string name="agios_dimitrios_address">Agiou Dimitriou, Thessaloniki, 546 33</string>
+    <string name="agios_dimitrios_info">
+        Agios Dimitrios is arguably considered the most important church of Thessaloniki by the majority
+        of the locals for religious, historical and artistic reasons as well. \n\n
+        Devoted to the patron Saint of the city, it has a long and rich history that pretty much
+        depicts some of the city\'s most important events of that shaped its identity.\n\n
+        The temple is a fine sample of Byzantine religious architecture of the late early period of
+        the Empire (7th century A.D.). The initial architectural design and interior decoration was
+        significantly deteriorated, due to continuous reconstructions, additions and several disasters
+        that occurred throughout the centuries.\n\n
+        Dated back to the 4th century A.D., a small chapel was constructed over the ruins of older
+        roman baths. More than a century later, the initial structure was replaced by a three aisled
+        Basilica, by a prefect named Leontios, while finally reconstructed in 629 – 634 A.D., as a
+        five aisled basilica.\n\n
+        During the Ottoman occupation period, the church was turned into a mosque as Thessaloniki
+        was captured by the ottomans. A number of mosaics and wall paintings were destroyed (1430 A.D.).
+    </string>
+    <string name="agios_dimitrios_website">http://www.inthessaloniki.com/en/agios-dimitrios</string>
+    <string name="agios_dimitrios_coord">40.6387993, 22.9455807</string>
+    <string name="agios_dimitrios_phone">+30 231 027 0008</string>
+    <string name="agios_dimitrios_hours">Everyday</string>
+
     <!-- Museums -->
+    <!-- Archaeological Museum-->
     <string name="archaeological_museum">Archaeological Museum</string>
     <string name="archaeological_address">Manoli Andronikou 6, Thessaloniki 546 21</string>
     <string name="archaeological_museum_info">
         The Archaeological Museum of Thessaloniki opened its doors to the public in 1962 by hosting
-        findings from the area of Thessaloniki and the neighboring counties.\n
+        findings from the area of Thessaloniki and the neighboring counties.\n\n
         The Archaeological Museum of Thessaloniki opened its doors to the public in 1962 by hosting
-        findings from the area of Thessaloniki and the neighboring counties.\n
-        The museum presents exhibits of the culture of Macedonia from prehistoric times and thereafter.\n
+        findings from the area of Thessaloniki and the neighboring counties.\n\n
+        The museum presents exhibits of the culture of Macedonia from prehistoric times and thereafter.\n\n
         The museum redesigned the interior area for a better and much more modern presentation of
-        the permanent and temporary collections.\n
+        the permanent and temporary collections.\n\n
         Visitors have the opportunity to walk around the five sections of the new structure of the
-        museum, through which they come into contact with the culture and people of ancient Macedonia.\n
-        The five sections of the Archaeological Museum of Thessaloniki:\n
-        Section A: Prehistoric Macedonia.\n
+        museum, through which they come into contact with the culture and people of ancient Macedonia.\n\n
+        The five sections of the Archaeological Museum of Thessaloniki:\n\n
+        Section A: Prehistoric Macedonia.\n\n
         Presentation of parts of the skull cast of an early hominid the \“Macedonian Ape\” and
-        presentation of a copy of the famous skull of Petralona Cave(200,000 BC).\n
-        Section-B: To the birth of cities.\n
+        presentation of a copy of the famous skull of Petralona Cave(200,000 BC).\n\n
+        Section-B: To the birth of cities.\n\n
         Presentation of evidence for the existence of settlements and cemeteries from the region
-        extending between Athos and Olympus mountains, during the Iron Age (1100 - 700 BC).\n
-        Section C: Macedonia from the 7th century BC to late Antiquity.\n
+        extending between Athos and Olympus mountains, during the Iron Age (1100 - 700 BC).\n\n
+        Section C: Macedonia from the 7th century BC to late Antiquity.\n\n
         Presentation of the life of the Macedonians from the creation of their independent kingdom
         of Macedonia (the ancient years) until the imperial period (1st to 4th century AD)
-        when Macedonia was a province of the Roman Empire.\n
-        Section D: Thessaloniki, the Macedonian Metropolis\n
+        when Macedonia was a province of the Roman Empire.\n\n
+        Section D: Thessaloniki, the Macedonian Metropolis\n\n
         Presentation of historical and archaeological information of the city.  The period from the
-        year of its foundation, in 315 BC until the Roman occupation.\n
-        Section E: The Gold of the Macedonians.\n
+        year of its foundation, in 315 BC until the Roman occupation.\n\n
+        Section E: The Gold of the Macedonians.\n\n
         Presentation of the art of the goldsmiths and exceptional exhibits from various places,
-        mostly from cemeteries of Archaic and Classical periods.\n
-        The museum also has a chronological narration commencing with the \"Prehistoric Macedonia.\"\n
+        mostly from cemeteries of Archaic and Classical periods.\n\n
+        The museum also has a chronological narration commencing with the \"Prehistoric Macedonia.\"
     </string>
     <string name="archaeological_website">https://www.amth.gr/en</string>
     <string name="archaeological_coord">40.625196, 22.953828</string>
     <string name="archaeological_phone">+30 231 331 0201</string>
     <string name="archaeological_working_hours">Mon &#8211; Fri: 08:00 &#8211; 20:00</string>
 
+    <!--Museum Of Plaster Casts-->
+    <string name="plaster_casts_museum">Museum Of Plaster Casts</string>
+    <string name="plaster_casts_museum_address">Aristotel University, Thessaloniki, Building of Philosophy</string>
+    <string name="plaster_casts_museum_info">
+        The museum of plaster casts is located inside the basement of the new building of the school
+        of Greek Ancient Philosophy of the Aristotle University of Thessaloniki.\n\n
+        The collection was created by Mr. Romeos Professor of Classical Archaeology and includes copies
+        and originals plaster casts, from archaeological findings The collection was set at the same time
+        with the foundation of the University of Thessaloniki.\n\n
+        The plaster casts collection is one of the best in Greece and a very important fact is that
+        it brings students from the archaeological department in contact with ancient Greek and Roman
+        art of creating sculptures and ceramics.\n\n
+        In room A there are copies of the archaic and classical times while in room B there are works
+        from the Hellenistic and Roman times.\n\n
+        Among the most notable works are replicas of the Parthenon frieze, votive reliefs and tomb
+        columns, statues of Kouros and Kores (young Sons and Daughters), portions of the armor of Athena
+        Nike, coins, ceramics, urns and masks.
+    </string>
+    <string name="plaster_casts_museum_website">http://www.museumsofmacedonia.gr/Art_Museums_and_Galleries/Plaster_Casts_Thess.html</string>
+    <string name="plaster_casts_museum_coord">40.6315673, 22.9554548</string>
+    <string name="plaster_casts_museum_phone">+30 997210</string>
+    <string name="plaster_casts_museum_working_hours">
+        Room A: Mon &#8211; Wed: 10:00 &#8211; 14:00\n
+        Room B: Tue &#8211; Thu: 10:00 &#8211; 14:00\n
+    </string>
+
+    <!--Museum Of Byzantine Cultures-->
+    <string name="byzantine_museum">Museum Of Byzantine Cultures</string>
+    <string name="byzantine_address">Leof. Stratou 2, Thessaloniki 54621</string>
+    <string name="byzantine_museum_info">
+        The Museum of Byzantine Culture opened its doors for public in the year of 1994.\n\n
+        The idea for the foundation of a Byzantine Museum was to create the home of the Byzantine
+        culture in the area of Macedonia and in particular to Thessaloniki, keeping the culture alive
+        while offering the possibility to students and the society to research and study on the topic.
+        In the museum there are sculptures, frescoes, mosaics, icons, metalwork, coins, wall paintings
+        glassware, pottery and inscriptions from the Byzantine times.\n\n
+        It has permanent exhibitions, rooms for temporary thematic exhibitions, conservation workshops, and storage rooms.
+        Today, three permanent exhibitions are open, presenting the society and the art of the
+        Early Christian period (4th–7th centuries AD) emphasizing on the transition from the ancient world to Christianity.\n\n
+        The topic of the first exhibition is “Early Christian Churches” and the design and decoration
+        of Christian churches in the first centuries.\n\n
+        The second exhibition is Early Christian Cities and Houses presenting the economic life,
+        domestic handicrafts, as well as details of food and clothing. The centre of the room is
+        dominated by the reception room of a house with a mosaic floor and very well preserved wall paintings.\n\n
+        The third exhibition is called “From the Elysian Fields to the Christian Paradise, and it
+        focuses on Early Christian cemeteries.\n\n
+        The fourth exhibition is called “‘From the Iconomachy to the Brilliance of the Macedonians
+        and the Komninos’ Dynasty. It presents the Iconomachy, architecture, painting, sculpture,
+        ceramics, lead seals and coins in mid-Byzantine churches, monasteries and the Christianize
+        of the Slavs by the Thessalonians brothers, the monks Cyrillus and Methodius.\n\n
+        Future exhibitions will present the dynasties of the Byzantine emperors in chronological
+        order from Heraclios (610-641) to the fall of Constantinople in 1453.
+        In the ‘Byzantine Castle’ exhibits and information are used to show how the castle was organized
+        and describe a picture of everyday life and production within and outside its walls.\n\n
+    </string>
+    <string name="byzantine_museum_website">http://www.mbp.gr/en</string>
+    <string name="byzantine_museum_coord">40.6239004, 22.9528696</string>
+    <string name="byzantine_museum_phone">+30 231 330 6400</string>
+    <string name="byzantine_museum_working_hours">Everyday: 09:00 &#8211; 16:00</string>
+
     <!-- Restaurants -->
+    <!-- Molyvos -->
     <string name="molyvos">Molyvos</string>
     <string name="molyvos_address">I.Dragoumi 31, Thessaloniki 54627</string>
     <string name="molyvos_info">
-        Molyvos, the idea, the pholosophy, the creation \n
+        Molyvos, the idea, the pholosophy, the creation \n\n
         Finished summers in Mytilini, the tea spoon cake in the homonymous architecture of Molyvos.
         The memories of the group made the dream a reality. And with the boat of the line he took a
-        harbor on Idragoud 31 at the first floor of a magnificent neoclassical building.\n
+        harbor on Idragoud 31 at the first floor of a magnificent neoclassical building.\n\n
         The feel of Mytilene is faithfully depicted in every corner of the restaurant called Molyvos
         with the handmade wooden furniture, the stone-made iron utensils, the painted ceilings, the
         large island sofas and of course the 9 balloons with the small olive groves, the hungry
         kumarias and the flower beds filled with miniatures , Thyms, basilicas are reborn in the
-        center of Thessaloniki in the Island of Molyvos.\n
+        center of Thessaloniki in the Island of Molyvos.\n\n
         The Molyvos Restaurant unleashes the senses with flavors and aromas of the city and the
-        East with Aegean and Mediterranean flavors.\n
+        East with Aegean and Mediterranean flavors.\n\n
         In Molyvos, we created our own cell, which was created with the same materials that were
         built in 1930. Roofing over 40 different faces and tsipouro from all over Greece, scattering
         in the space a delightful scent of lifting. Wines are also kept from small vineyards and
-        vineyards, as well as composts and tarsi all made by us.\n
+        vineyards, as well as composts and tarsi all made by us.\n\n
         People who are slaves of the clock, the time and the machine who do not have to think, love,
         feel the great joy of life, should ever come to places like Molyvos that say here and time
-        stops and Life It proceeds with a very quiet and serene rhythm.\n
+        stops and Life It proceeds with a very quiet and serene rhythm.
     </string>
     <string name="molyvos_website">https://molyvos.gr/</string>
     <string name="molyvos_coord">40.636604,22.940037</string>
     <string name="molyvos_phone">+30 231 055 5952</string>
     <string name="molyvos_working_hours">Everyday: 13:00 &#8211; 01:00</string>
 
+    <!-- Elia Lemoni -->
+    <string name="elia_lemoni">Elia Lemoni</string>
+    <string name="elia_lemoni_address">Kapodistriou 9, Thessaloniki 546 25</string>
+    <string name="elia_lemoni_info">
+        Beginning its culinary journey in 2000, "Lemon Elia" is the only restaurant in Thessaloniki
+        that managed to make Greek and Mediterranean cuisine again fashionable, with such great success.\n\n
+        By introducing the traditional spit in a modern and creative menu, we managed to overturn the
+        data on the gourmet map of the city.\n\n
+        Genuine Greek flavors, traditional Mediterranean cuisine, homemade cooked dishes that reminiscent
+        of \"Mama\'s cuisine\", quality and pure raw materials, fresh materials, modern environment
+        and prices that go hand in hand with the spirit of the time, make up our philosophy and are
+        the secret of it Our success!\n\n
+        Today, after more than fifteen years of success, fanatical customers and two stores are
+        committed to continue to offer you beautiful and delicious moments full of enjoyment.\n\n
+    </string>
+    <string name="elia_lemoni_website">https://www.facebook.com/elialemoni/</string>
+    <string name="elia_lemoni_coord">40.636546, 22.9395559</string>
+    <string name="elia_lemoni_phone">+30 231 051 5881</string>
+    <string name="elia_lemoni_working_hours">Everyday: 12:00 &#8211; 00:00</string>
+
+    <!-- Elia Lemoni -->
+    <string name="habanera">Habanera</string>
+    <string name="habanera_address">Papandreou G., Georgiou Papandreou, Thessaloniki 54646</string>
+    <string name="habanera_info">
+        The Habanera Cocktail Bar Restaurant opened in Thessaloniki in 1996 in a beautiful neoclassical
+        building on the former Antheon, now called Papandreou St.The name Habanera has its origin in
+        the Cuban tradition and it is referred to \"The girl from Havana\".\n\n
+        In Habanera you can enjoy traditional dishes from the Caribbean and Mexico in a retro
+        environment inspired by the beautiful old city of Havana. As the first cocktail Bar opened
+        in Thessaloniki, you will soon discover that there is a huge variety of exotic cocktails and
+        hot Grogs, for cold winter nights.\n\n
+    </string>
+    <string name="habanera_website">http://www.inthessaloniki.com/en/habanera</string>
+    <string name="habanera_coord">40.6008879, 22.952357</string>
+    <string name="habanera_phone">+30 231 086 9331</string>
+    <string name="habanera_working_hours">Everyday: 20:00 &#8211; 02:00</string>
+
 
     <!-- Coffee bars-->
+    <!-- Tribeca -->
     <string name="tribeca">TriBeCa All Day Cafe Bar</string>
     <string name="tribeca_address">Leoforos Nikis 19, Thessaloniki 54623</string>
     <string name="tribeca_info">
-            Specialties \n
-            Serves breakfast, lunch, coffee and drinks\n
-            Services \n
-            Takes Reservations\n
-            Walk-Ins Welcome\n
-            Good For Groups\n
-            Good For Kids\n
-            Take Out\n
-            Waiter Service\n
-            Outdoor Seating\n
+        In front of the thermal bay we welcome our favorite all-day cafeteria bar Tribeca
+        early in the morning for coffee for the delicious morning dishes it serves as well as until
+        late evening for drinks, beers and refreshing cocktails. Its special feature? What else? The
+        friendly and comfortable environment is based on the attentive and modern aesthetics of the shop.
+        The central theme and the eye of the eye are the spaciousness of the shop and the large wooden bar on the other.\n\n
+        The chef\'s collection will suggest you try the special dishes and snacks with their special
+        tastes for all hours of the day. The trademark of the shop is its old-fashioned cocktail as
+        well as its chill out music. It is remarkable that the store hosts live Greek bands and
+        successful DJs for all the tastes of the customers.\n\n
+        Do not forget to taste the fresh, homemade lemonade of the shop.
     </string>
     <string name="tribeca_website">https://www.facebook.com/TribecaThessaloniki</string>
     <string name="tribeca_coord">40.6309, 22.9421</string>
     <string name="tribeca_phone">+30 231 022 6604</string>
     <string name="tribeca_working_hours">Everyday: 09:00 &#8211; 03:00</string>
+
+    <!-- Plaisir -->
+    <string name="plaisir">Plaisir</string>
+    <string name="plaisir_address">Mitropoleos 9, Thessaloniki 546 24</string>
+    <string name="plaisir_info">
+        In 1984 the first Plaisir patisserie opened in Thessaloniki aiming the creation of new
+        flavors. Today there are 16 stores in Thessaloniki, all supplied by the central manufacture
+        unit, which is located in the industrial area of New Redestos of Thessaloniki. All stores
+        operate both as patisseries and coffee shops.\n\n
+        In 2001, Plaisir Production S.A. was transferred to privately – owned facilities in New
+        Redestos in order to materialize a program of modernization and large amounts of investments.
+        Within the scope of these efforts, a group of quality and hygiene specifications was and is
+        applied by the companyΆs administration.
+    </string>
+    <string name="plaisir_website">http://www.plaisir.gr/en/</string>
+    <string name="plaisir_coord">40.633041, 22.9387269</string>
+    <string name="plaisir_phone">+30 231 027 7444</string>
+    <string name="plaisir_working_hours">Mon &#8211; Sat: 07:00 &#8211; 01:00</string>
+
+    <!-- Mikel -->
+    <string name="mikel">Mikel</string>
+    <string name="mikel_address">Leof. Nikis 67, Thessaloniki 546 22</string>
+    <string name="mikel_info">
+        Mikel cafeterias is the latest addition to the city\'s coffee culture! Stylish and Colorful,
+        they can be found in many places all around Thessaloniki centre offering many different kinds
+        of coffee! A really sophisticated experience over the art of coffee.\n\n
+        Friendly environment, excellent service and top quality coffee made Mikel cafes one of the
+        most popular destinations in Thessaloniki and other cities!\n\n
+        A must visit destination for coffee lovers.
+    </string>
+    <string name="mikel_website">http://www.inthessaloniki.com/en/mikel</string>
+    <string name="mikel_coord">40.6282304, 22.9442197</string>
+    <string name="mikel_phone">+30 231 027 1144</string>
+    <string name="mikel_working_hours">Everyday: 08:00 &#8211; 23:30</string>
+
+    <!-- Coffee Island -->
+    <string name="coffee_island">Coffee Island</string>
+    <string name="coffee_island_address">Egnatia and Leonida Iasonidou, Thessaloniki 546 36</string>
+    <string name="coffee_island_info">
+        In 1999, love for coffee inspired us to open a traditional coffee shop…with a modern aspect
+        in the centre of Patras. An alternative suggestion that from the very beginning attracted
+        everyone that takes coffee…seriously. The first Coffee Island became an integral part of the
+        neighbourhood and local culture.\n\n
+        Since then, it gives coffee lovers the opportunity to enjoy a great range of new blends as
+        well as various useful items to prepare a tasty and excellent quality coffee.\n\n
+        Since November 2016 another link has been added to our chain. This makes us extremely proud.
+        Through Knowledge, Dedication, Love and Artistry another coffee shop has been added to Coffee
+        Island’s family, this time in London, the most competitive market of the United Kingdom.\n\n
+        Responding to our customers’ and partners’ call, we have adopted a new visual identity
+        (logo redesign and packaging), a modern communicative profile and a new architectural
+        concept in our stores. The successful cooperation with the world acknowledged and esteemed
+        Kourkoula – Kokkinou architects has turned Coffee Island stores into cosy meeting places.\n\n
+    </string>
+    <string name="coffee_island_website">http://coffeeisland.gr/en/</string>
+    <string name="coffee_island_coord">40.6323455, 22.9421244</string>
+    <string name="coffee_island_phone">+30 231 020 2602</string>
+    <string name="coffee_island_working_hours">Everyday: 07:00 &#8211; 23:00</string>
 </resources>

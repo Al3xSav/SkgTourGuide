@@ -25,13 +25,34 @@ public class Location {
     }
 
     // Get the details of the location
-    public String getLocationName(){ return locationName;}
-    public String getLocationAddress(){ return locationAddress;}
-    public String getLocationDesc(){ return locationDesc;}
-    public int getLocationImageID(){ return locationImageID;}
-    public String getLocationURL(){ return locationURL;}
-    public String getLocationCoordinates(){ return locationCoordinates;}
-    public String getLocationPhoneNumber(){ return locationPhoneNumber;}
-    public String getLocationWorkingHours(){ return locationWorkingHours;}
+    public String getLocationName() {
+        return locationName;
+    }
+
+    public String getLocationAddress() {
+        return locationAddress;
+    }
+
+    public String getLocationDesc() {
+        return locationDesc;
+    }
+
+    public int getLocationImageID() { return locationImageID;}
+
+    public String getLocationURL() {
+        return locationURL;
+    }
+
+    public String getLocationCoordinates() {
+        return locationCoordinates;
+    }
+
+    public String getLocationPhoneNumber() {
+        return locationPhoneNumber;
+    }
+
+    public String getLocationWorkingHours() {
+        return locationWorkingHours;
+    }
 
 }

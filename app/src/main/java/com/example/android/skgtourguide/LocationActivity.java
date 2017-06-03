@@ -29,7 +29,6 @@ public class LocationActivity extends AppCompatActivity {
         String locationPhoneNumber = bundle.getString(getString(R.string.phone_object));
         String locationWorkingHours = bundle.getString(getString(R.string.working_hours_object));
 
-
         // Set the name of the place as the title of the screen
         this.setTitle(locationName);
 

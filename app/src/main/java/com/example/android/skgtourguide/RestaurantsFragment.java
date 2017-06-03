@@ -25,7 +25,7 @@ public class RestaurantsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
         ArrayList<Location> locations = new ArrayList<>(); // ArrayList of sights
 
-        // Add info of each location to the array list
+        // Add Molyvos to the array list
         locations.add(new Location(
                 getString(R.string.molyvos),
                 getString(R.string.molyvos_address),
@@ -35,6 +35,28 @@ public class RestaurantsFragment extends Fragment {
                 getString(R.string.molyvos_coord),
                 getString(R.string.molyvos_phone),
                 getString(R.string.molyvos_working_hours)));
+
+        // Add Elia Lemoni to the array list
+        locations.add(new Location(
+                getString(R.string.elia_lemoni),
+                getString(R.string.elia_lemoni_address),
+                getString(R.string.elia_lemoni_info),
+                R.drawable.ic_elia_lemoni,
+                getString(R.string.elia_lemoni_website),
+                getString(R.string.elia_lemoni_coord),
+                getString(R.string.elia_lemoni_phone),
+                getString(R.string.elia_lemoni_working_hours)));
+
+        // Add Habanera to the array list
+        locations.add(new Location(
+                getString(R.string.habanera),
+                getString(R.string.habanera_address),
+                getString(R.string.habanera_info),
+                R.drawable.ic_habanera,
+                getString(R.string.habanera_website),
+                getString(R.string.habanera_coord),
+                getString(R.string.habanera_phone),
+                getString(R.string.habanera_working_hours)));
 
         // Set the adapter for the location
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

@@ -95,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
     private static class MyAdapter extends ArrayAdapter<String> implements ThemedSpinnerAdapter {
         private final ThemedSpinnerAdapter.Helper mDropDownHelper;
 
@@ -132,8 +131,6 @@ public class MainActivity extends AppCompatActivity {
             mDropDownHelper.setDropDownViewTheme(theme);
         }
     }
-
-
     /**
      * A placeholder fragment containing a simple view.
      */
