@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         spinner.setAdapter(new MyAdapter(
                 toolbar.getContext(),
                 new String[]{
-                        "Sights",
-                        "Museums",
-                        "Restaurants",
-                        "Coffee-Bars",
+                        getString(R.string.sights_fragment),
+                        getString(R.string.museums_fragment),
+                        getString(R.string.restaurants_fragment),
+                        getString(R.string.coffee_fragments),
                 }));
 
         spinner.setOnItemSelectedListener(new OnItemSelectedListener() {

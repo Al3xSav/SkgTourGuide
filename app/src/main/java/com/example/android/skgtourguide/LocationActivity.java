@@ -18,7 +18,6 @@ public class LocationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_places);
 
         // Get information of the location object from the intent
-
         Bundle bundle = getIntent().getExtras();
         String locationName = bundle.getString(getString(R.string.name_object));
         String locationAddress = bundle.getString(getString(R.string.address_object));

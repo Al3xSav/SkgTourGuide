@@ -2,6 +2,11 @@
     <string name="app_name">Skg Guide</string>
     <string name="action_settings">Settings</string>
 
+    <string name="sights_fragment">Sights</string>
+    <string name="museums_fragment">Museums</string>
+    <string name="restaurants_fragment">Restaurants</string>
+    <string name="coffee_fragments">Coffee-Bars</string>
+
     <string name="name_object">locationName</string>
     <string name="address_object">locationAddress</string>
     <string name="desc_object">locationDescription</string>

@@ -20,14 +20,17 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         super(context, 0, locations);
     }
 
+    static class ViewHolder {
+        ImageView imageView;
+        TextView textViewName;
+        TextView textViewAddress;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_items, parent, false);
-        }
-
+        ViewHolder holder = new ViewHolder();
         // Get the object located at this position in the list
         Location currentLocation = getItem(position);
 
@@ -41,21 +44,20 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         String number = currentLocation.getLocationPhoneNumber();
         String hours = currentLocation.getLocationWorkingHours();
 
-        // Get ImageView and set the name of the object
-        final ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_list_item);
-        imageView.setImageResource(imageID);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_items, parent, false);
 
-        // Get TextView and set the name of the Object
-        TextView textViewName = (TextView) listItemView.findViewById(R.id.list_item_name);
-        textViewName.setText(name);
+            holder.imageView = (ImageView) listItemView.findViewById(R.id.image_list_item);
+            holder.imageView.setImageResource(imageID);
 
-        /*TextView textViewWebsite = (TextView) listItemView.findViewById(R.id.textView_website);
-        textViewWebsite.setText(url);*/
+            holder.textViewName = (TextView) listItemView.findViewById(R.id.list_item_name);
+            holder.textViewName.setText(name);
 
-        // Get TextView and set the name of the Object
-        TextView textViewAddress = (TextView) listItemView.findViewById(R.id.list_item_address);
-        textViewAddress.setText(address);
+            holder.textViewAddress = (TextView) listItemView.findViewById(R.id.list_item_address);
+            holder.textViewAddress.setText(address);
 
+            listItemView.setTag(holder);
+        }
         //Create an implicit intent to display the detailed place information if the user taps on the list item
         final Intent intent = new Intent(context, LocationActivity.class);
 
